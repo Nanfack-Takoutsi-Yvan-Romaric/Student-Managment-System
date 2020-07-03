@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha512-M+hXwltZ3+0nFQJiVke7pqXY7VdtWW2jVG31zrml+eteTP7im25FdwtLhIBTWkaHRQyPrhO2uy8glLMHZzhFog==" crossorigin="anonymous"></script>
+   	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+	<title></title>
+
+
+	
+</head>
+<body>
+	<div class = "container body-container"> <!-- this contain the whole body -->
+		<div class="row">
+			
+			<div class="col-xs-8">
+				<div class="wrapper">
+
+					<!-- Here we start with the side navigation bar -->
+
+					<nav id="sidebar">
+						<!-- the university of buea logo -->
+						<div class="sidebar-header">
+							<img src="../icons/icon.png">
+
+						</div>
+						<!--logo placed -->
+						<!-- the options of the menu -->
+						<ul class="list-unstyled components">
+
+							<li>
+								<a href="#"><i class="fas fa-home"></i> Home</a>
+							</li>
+
+							<li  class="active">
+								<a href="#studentSubMenu" data-toggle="collapse" aria-expended="false" class="dropdown-toggle"><i class="fas fa-user-graduate"></i> Student</a>
+								<ul class="collapse list-unstyled" id="studentSubMenu">
+									<!-- the student submenu -->
+									<li>
+										<a href="#"><i class="fas fa-plus"></i> add a student</a>
+									</li>
+									<li>
+										<a href="#"><i class="fas fa-minus"></i> check/remove <br> a student</a>
+									</li>
+								</ul>	
+							</li>
+							
+							<li>
+								<a href="#staffSubMenu" data-toggle="collapse" aria-expended="false" class="dropdown-toggle"><i class="fas fa-users"></i> Staff</a>
+								<ul class="collapse list-unstyled" id="staffSubMenu">
+									<!-- the staff submenu -->
+									<li>
+										<a href="#"><i class="fas fa-plus"></i> add a staff</a>
+									</li>
+									<li>
+										<a href="#"><i class="fas fa-minus"></i> check/remove a <br>staff member</a>
+									</li>
+								</ul>	
+							</li>
+
+							<li>
+								<a href="#feeSubMenu" data-toggle="collapse" aria-expended="false" class="dropdown-toggle"><i class="fas fa-coins"></i>
+								Fee</a>
+								<ul class="collapse list-unstyled" id="feeSubMenu">
+									<!-- the fee submenu -->
+									<li>
+										<a href="#"><i class="fas fa-plus"></i> add a fee</a>
+									</li>
+									<li>
+										<a href="#"><i class="fas fa-minus"></i> check/remove a <br>fee</a>
+									</li>
+								</ul>	
+							</li>
+
+							<li>
+								<a href="#resultSubMenu" data-toggle="collapse" aria-expended="false" class="dropdown-toggle"><i class="fas fa-scroll"></i> Result</a>
+								<ul class="collapse list-unstyled" id="resultSubMenu">
+									<li>
+										<a href="#"><i class="fas fa-plus"></i> add a result</a>
+									</li>
+									<li>
+										<a href="#"><i class="fas fa-minus"></i> check/remove a <br>result</a>
+									</li>
+								</ul>	
+							</li>
+							
+							<li>
+								<a href="#"><i class="fas fa-clipboard-list"></i> Report</a>
+							</li>
+
+							<li>
+								<a href="#"><i class="fas fa-user-friends"></i> About us</a>
+							</li>
+
+							<li>
+								<a href="#"><i class="fas fa-door-open"></i> Exit</a>
+							</li>
+
+						</ul>
+					</nav>
+
+					<!-- This is the end of the side navigation bar -->
+					
+					<!--the content of the site-->
+				<div id="content">
+					<!-- this is for the user menu -->
+					<div class="container-fluid">
+						<div class="navbar navbar-expand-xl navbar-light bg-light nav-content-container">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+   						<span class="navbar-toggler-icon"></span>
+  							</button>
+
+						<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						    <ul class="navbar-nav nav-content-container">
+
+						      	<li class="nav-item dropdown">
+						        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i>
+						          User
+						        	</a>
+						        	<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						          		<a class="dropdown-item" href="#"><i class="fas fa-user-edit"></i> My account</a>
+						          		<div class="dropdown-divider"></div>
+						          		<a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Log out</a>
+						        	</div>
+						      	</li>
+						    </ul>
+						 </div>
+
+						</div>
+						<!-- End of the user menu -->
+					</div>
+					<br><br><br><br>
+					<!-- a given text -->
+					<h2>This is where you will put the containt</h2>
+
+					<p>
+						
+						Why do we use it?
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+					</p>
+
+
+					<p>
+						
+						Why do we use it?
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+					</p>
+
+					<div class="line"></div>
+					<h3>loremp ipsum</h3>
+					<p>
+						
+						Why do we use it?
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+					</p>
+
+					<!-- end of the text -->
+
+					<!-- template for a table -->
+					<!-- for the table we create a bootstrap card element that will contain a the title of the table, the table and a pagination. -->
+					<div class="container">
+						<div class="card">
+							<div class="card-header">
+								<h1>Student</h1>
+
+								 <form class="form-inline my-2 my-lg-0">
+     								<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      								<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+    							</form>
+							</div>
+							
+							<div class="card-body">
+								<div class="container table-responsive">
+						<table class="table table-striped">
+							<thead>
+								<th>Rollno</th>
+								<th>Regno</th>
+								<th>Name</th>
+								<th>Class</th>
+								<th>DOB</th>
+								<th>DOR</th>
+								<th>Address</th>
+								<th>Pin</th>
+								<th>Phone</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>2</td>
+									<td>3</td>
+									<td>4</td>
+									<td>5</td>
+									<td>6</td>
+									<td>7</td>
+									<td>8</td>
+									<td>9</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>2</td>
+									<td>3</td>
+									<td>4</td>
+									<td>5</td>
+									<td>6</td>
+									<td>7</td>
+									<td>8</td>
+									<td>9</td>
+								</tr>
+							</tbody>
+							
+						</table>
+						
+					</div>
+							</div>
+
+							<div class="card-footer">
+								
+							<nav aria-label="Page navigation example">
+  								<ul class="pagination">
+	    							<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+								    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+								    <li class="page-item"><a class="page-link" href="#">2</a></li>
+								    <li class="page-item"><a class="page-link" href="#">3</a></li>
+								    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+								 </ul>
+							</nav>
+								
+							</div>
+
+						</div>
+						
+					</div>
+					<!-- end of the table -->
+
+					<!-- this a sample of form -->
+					<!-- i first create another card -->
+					<br><br>
+					<div class="container text">
+						<div class="card">
+							<div class="card-header">
+								<h1>Add a student</h1>
+							</div>
+							<div class="card-body">
+
+								<div class="container"> 
+						<form> 
+							<div class="form-group"> <label for="email">Email:</
+					label>
+								<input type="email" class="form-control" id="email"> 
+							</div> 
+							<div class="form-group"> <label for="info">Info:</label>
+								<textarea class="form-control" rows="3" id="info"></textarea> 
+							</div> 
+							<div class="form-group"> 
+								<label for="sellist">Select One: </label>
+								<select class="form-control" id="sellist">
+									<option>A</option> 
+									<option>B</option> 
+									</select> 
+							</div> 
+							<label class="radio-inline">
+							<input type="radio" name="rb">Radio 1</ label>
+							
+							<label class="radio-inline">
+							<input type="radio" name="rb">Radio 2</ label>
+							<div class="checkbox"> 
+								<label>
+								<input type="checkbox">Checkbox</label> 
+							</div>
+						 </form> 
+					</div>
+								
+							<button type="submit" class="btn">
+								Submit
+							</button>
+
+							</div>
+							<!-- end of the bady card -->
+						</div>
+						
+					</div>
+
+					<!-- end of the form -->
+				</div>
+
+				</div>
+			</div>	
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
+
+
+</body>
+</html>
